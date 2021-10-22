@@ -1,0 +1,69 @@
+
+
+    <nav class="navbar navbar-expand-sm navbar-ligth-bg-ligth"> 
+        
+    <button class="= navbar-toggler"type="button" data-toggler="Collapse" data-target="#opcion1">
+    <span class="navbar-toggle-icon"></span>
+
+    </button>  
+
+    <a class="navbar-brand" href = "#">
+    <img src="https://www.logolynx.com/images/logolynx/c9/c9989cc7daae338fd7d353c35b9442fa.png" alt="" width="40" height="40"></a>
+
+        <div class ="Collapse navbar-collapse" id="opciones ">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+
+                    <a href="#" class="nav-link">Actualizar Informacion </a>
+
+                </li>
+
+                <li class="navbar-item">
+
+                    <a href="#" class="nav-link">Actualizar Logo</a>
+
+                </li>
+
+                <li class="navbar-item">
+
+                    <a href="#" class="nav-link">Actualizar Interes</a>
+
+                </li>
+
+            </ul>    
+
+        </div>
+
+    </nav>
+
+
+
+     
+<form action="" class="register" [formGroup]="datosformulario">
+
+    <h1 class="register-title">Informacion de Contacto</h1>
+    
+    <div class="form-group">
+    
+    <input id="fname" name="name" type="text" formControlName="Contactenos" class="register-input" placeholder="Contactenos"  class="form-control" required>
+    
+    </div>
+
+
+    <div class="form-group">
+
+        <input type="email" formControlName="Oficina" class="register-input" placeholder="Oficina"  class="form-control"required>
+    </div>
+
+    <input type="text" formControlName="Horario" class="register-input" placeholder="Horario"  class="form-control"required>
+
+
+    <button  (click)="Actualizar()" class="register-button" >Actualizar</button>
+
+ </form>
+
+<h1>
+
+    <div></div>
+</h1>
