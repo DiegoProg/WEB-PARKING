@@ -1,0 +1,26 @@
+label{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    display: block;
+
+}
+h2{
+    text-align: center;
+}
+
+footer{
+
+text-align: center;
+
+
+}
+
+body{
+    background-color: beige;
+}
